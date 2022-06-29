@@ -5,6 +5,7 @@ body {
 #title {
    background-color: #ff4c68;
    color: white;
+   margin-bottom: 10%;
 }
 
 .navbar-brand {
@@ -45,3 +46,8 @@ h1 {
    width: 60%;
    transform: rotate(25deg);
 }
+
+#features {
+   padding: 0 15%;
+}
+
