@@ -5,7 +5,7 @@ body {
 #title {
    background-color: #ff4c68;
    color: white;
-   margin-bottom: 10%;
+
 }
 
 .navbar-brand {
@@ -38,6 +38,15 @@ h1 {
 
 }
 
+h3 {
+
+   font-size: 1.5rem;
+}
+
+p {
+   color: #8f8f8f;
+}
+
 .download-button {
    margin: 5% 3% 5% 0%;
 }
@@ -48,6 +57,21 @@ h1 {
 }
 
 #features {
-   padding: 0 15%;
+   padding: 6% 15%;
+
 }
 
+.feature-box {
+   text-align: center;
+   padding: 4%;
+}
+
+.feature-icon {
+   color: #ef8172;
+   margin-bottom: 1rem;
+
+}
+
+.feature-icon:hover {
+   color: #ff4c68;
+}
