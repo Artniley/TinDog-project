@@ -14,7 +14,7 @@ body {
 }
 
 .container-fluid {
-   padding: 3% 15%;
+   padding: 3% 15% 7%;
 }
 
 .navbar {
@@ -56,13 +56,24 @@ p {
    margin: 5% 3% 5% 0%;
 }
 
+
 .title-image {
    width: 60%;
    transform: rotate(25deg);
+   position: absolute;
+   right: 30%;
+
+}
+
+.position-img {
+   position: relative;
 }
 
 #features {
-   padding: 6% 15%;
+   padding: 7% 15%;
+   background-color: white;
+   position: relative;
+   z-index: 1;
 
 }
 
