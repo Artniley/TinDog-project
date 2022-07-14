@@ -99,7 +99,8 @@ p {
 #press {
    background-color: #ef8172;
    text-align: center;
-   padding: 3%;
+   padding: none;
+   /*padding = 3%*/
 }
 
 .press-logo {
@@ -109,4 +110,13 @@ p {
 
 .carousel-item {
    padding: 7% 15%;
+}
+
+#pricing {
+   padding: 100px;
+   text-align: center;
+}
+
+.pricing-column {
+   padding: 3% 2%;
 }
